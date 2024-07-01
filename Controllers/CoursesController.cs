@@ -14,12 +14,13 @@ namespace MyCourse.Controllers
  
         public IActionResult Index()
         {
-            return Content("Sono index");
+         //   return Content("Sono index");
+         return Content("Ho cambiato risposta");
         }
 
         public IActionResult Detail(string id)
         {
-            return Content($"Sono detail e ho id {id} ");
+            return View();
         }
 
 

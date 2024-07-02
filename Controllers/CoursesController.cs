@@ -15,7 +15,7 @@ namespace MyCourse.Controllers
         public IActionResult Index()
         {
          //   return Content("Sono index");
-         return Content("Ho cambiato risposta");
+         return View();
         }
 
         public IActionResult Detail(string id)
